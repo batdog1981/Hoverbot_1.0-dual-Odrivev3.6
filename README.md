@@ -6,5 +6,6 @@ hi I'm Joel two years ago I started a project after I saw someone using an O dri
 
 ![pic](https://github.com/batdog1981/Hoverbot_1.0-dual-Odrivev3.6/blob/main/292532811_5903001606395066_7633202172907996396_n.jpg)
 
+![pic](https://github.com/batdog1981/Hoverbot_1.0-dual-Odrivev3.6/blob/main/20230123_231355.jpg)
 
 For my hover bot I'm using 4x 10 inch air field hoverboard hub motors.(the kind with the extra hall sensor wire) which is a thermistor wire for hub motor if anyones wondering. For all my 3D printing designs I use SketchUp 2020, one of the SketchUp files is the entire hover bot assembled so you can click on any components separately I made them all separately and added them all together so everything is 100% accurate used a micrometer for every piece I will also include individual OBJ files for you to 3D print yourself. I'm going to separate so ROS noetic set up along with the RC setup it seems like the RC setup is the most popular so I'm going to start with that I'm going to explain everything an example form so anybody can get it I'm proud of my accomplishment and I want you to feel that same feeling when you do this project.
