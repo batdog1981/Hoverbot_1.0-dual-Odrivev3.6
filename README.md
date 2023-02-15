@@ -4,6 +4,8 @@
 hello world.lol
 hi I'm Joel two years ago I started a project after I saw someone using an O drive version 3.6 to operate a robotic platform with hoverboard motors. Since hoverboard motors can move a lot of weight it was perfect for what I wanted but I'm 100% self-taught in Python in C and C++. And it was very hard to find the right information 2 use O drive. So my I want my two years of work to make this project exciting for even a novice. Since I'm self-taught hopefully I can explain examples to make this whole process easier my robot #hover bot has dual O drive 3.6 controllers running off both RC or Ros noetic. I'm new to posting things on GitHub so if anybody sees any mistakes I've made please point them out I really wanna this project to make a difference and make sure any novice can complete this without giving up.
 
+![pic](https://github.com/batdog1981/Hoverbot_1.0-dual-Odrivev3.6/blob/main/283862602_5775849522443609_6167560359689070059_n.jpg)
+
 ![pic](https://github.com/batdog1981/Hoverbot_1.0-dual-Odrivev3.6/blob/main/292532811_5903001606395066_7633202172907996396_n.jpg)
 
 ![pic](https://github.com/batdog1981/Hoverbot_1.0-dual-Odrivev3.6/blob/main/20230123_231355.jpg)
