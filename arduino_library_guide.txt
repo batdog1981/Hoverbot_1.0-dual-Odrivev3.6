@@ -1,0 +1,20 @@
+using arduino library
+
+
+  for (int axis = 0; axis < 2; ++axis) {
+    odrive_serial << "w axis" << axis << ": Requesting state " << AXIS_STATE_CLOSED_LOOP_CONTROL << '\n';
+    if (!odrive.run_state(axis, AXIS_STATE_CLOSED_LOOP_CONTROL, true /*wait to verify*/)) return;
+  }
+
+*above code in arduino setup will put both axis into Closed loop control.
+
+*once in closed loop control im using rc reciever to read input. doing this instead of running rc strait into odrive 3.6 allows other input to determain controll
+simply once in control loop by passing code below tells odrive to pass a velocity into an axis
+
+odrive.SetVelocity(0, 0, 0); //  odrive.SetVelocity (axis_number, set_velocity, option_velocity_feed_foward)
+
+*passing a -velocity results in wheel spinning other direction
+
+* to read odrive voltage and print in serial example
+    odrive_serial << "r vbus_voltage\n";
+    Serial << "Vbus voltage: " << odrive.readFloat() << '\n';
